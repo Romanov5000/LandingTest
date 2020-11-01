@@ -56,6 +56,15 @@
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
+.logoAndNav .navBar .nav a {
+  color: rgba(0, 0, 0, 0.75);
+}
+.logoAndNav .navBar .nav a:hover,
+.logoAndNav .navBar .nav a:focus {
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+  border: none;
+}
 .logoAndNav .navBar .nav:last-child {
   height: fit-content;
 }
@@ -760,4 +769,7 @@ body {
   background: #dec377;
   border-radius: 2px;
   border: none;
+}
+html {
+  scroll-behavior: smooth;
 }
