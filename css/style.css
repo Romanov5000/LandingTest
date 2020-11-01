@@ -1,0 +1,762 @@
+.header.wrapper {
+  max-width: 1210px;
+}
+.headerInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.headerInfo .language p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.headerInfo .language .lang {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.headerInfo .language img {
+  margin-bottom: 3px;
+}
+.headerInfo .phoneNumber a {
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 15px;
+  text-decoration: none;
+  font-family: Commissioner;
+  font-size: 14px;
+  cursor: pointer;
+}
+.headerInfo .phoneNumber img {
+  margin-bottom: 3px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.headerInfo .phoneNumber img:last-child {
+  margin-right: 15px;
+}
+.logoAndNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoAndNav .logo {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.logoAndNav .navBar {
+  display: flex;
+}
+.logoAndNav .navBar .nav {
+  margin-left: 50px;
+  list-style-type: none;
+  cursor: pointer;
+  font-family: Commissioner;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.logoAndNav .navBar .nav:last-child {
+  height: fit-content;
+}
+.infoAboutMe {
+  position: relative;
+}
+.infoAboutMe .slideInfo {
+  position: absolute;
+  top: 100px;
+  left: 207px;
+  padding-right: 730px;
+}
+.infoAboutMe h1 {
+  font-family: Commissioner;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 18px 0;
+}
+.infoAboutMe p {
+  margin-bottom: 40px;
+}
+.sliderPrev {
+  top: 430px;
+  left: 230px;
+  width: 20px;
+  height: 20px;
+}
+.sliderNext {
+  top: 430px;
+  left: 280px;
+  width: 20px;
+  height: 20px;
+}
+.skillBlock {
+  background-color: #F2F2F2;
+  padding-bottom: 45px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 55px;
+}
+.skills .skill {
+  width: 23%;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+.skills .skillImg {
+  width: 120px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  margin: 45px auto 20px;
+}
+.skills .skillImg img {
+  padding: 28px;
+}
+.skills p {
+  margin-bottom: 30px;
+  padding: 0 30px;
+  color: rgba(0, 0, 0, 0.75);
+}
+.mySkills {
+  background-color: #f2f2f2;
+  margin-bottom: 200px;
+}
+.mySkills .lawyerBlock {
+  display: flex;
+}
+.mySkills .lawyerBlock .lawyerTextBlock {
+  padding: 55px 95px 0;
+  background-color: white;
+}
+.mySkills .lawyerBlock .lawyerTextBlock h3 {
+  font-family: Commissioner;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 0 30px;
+}
+.mySkills .lawyerBlock .lawyerTextBlock p {
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.mySkills h3 {
+  margin: 95px 0 35px;
+}
+.mySkills .skillItems {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.mySkills .skillItems .skillItem {
+  display: flex;
+  justify-content: space-between;
+  width: 32%;
+  background-color: #fff;
+}
+.mySkills .skillItems .skillItem .skillItemText {
+  margin: 20px 30px 0;
+  padding-right: 40px;
+}
+.mySkills .skillItems .skillItem .skillItemText p {
+  font-family: Commissioner;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+}
+.mySkills .skillItems .skillItem .skillItemText button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  border: none;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  position: relative;
+  top: 75px;
+}
+.mySkills .skillItems .skillItem .skillItemImg {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px 10px 50px;
+  border-radius: 50px;
+  padding: 15px;
+}
+.mySkills .activitiAndSliderBlock {
+  position: relative;
+}
+.mySkills .activitiAndSliderBlock .activityText {
+  display: flex;
+  margin-top: 100px;
+}
+.mySkills .activitiAndSliderBlock .activityText h3 {
+  margin: 0;
+  width: 110%;
+  margin-bottom: 610px;
+}
+.mySkills .activitiAndSliderBlock .slider {
+  position: absolute;
+  top: 230px;
+}
+.mySkills .activitiAndSliderBlock .slider .sliderPrev {
+  position: absolute;
+  top: 300px;
+  left: -50px;
+}
+.mySkills .activitiAndSliderBlock .slider .sliderNext {
+  position: absolute;
+  top: 300px;
+  left: 1210px;
+}
+.reviews h3 {
+  margin-bottom: 30px;
+}
+.reviews .reviewTexts {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews .reviewTexts .text {
+  padding: 40px 60px 60px 50px;
+}
+.reviews .reviewTexts .text p:first-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+.reviews .reviewTexts .text .reviewUserName {
+  font-family: Commissioner;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  color: #dec377;
+}
+.reviews .reviewTexts button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  border: none;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+.reviews .reviewTexts .indicatirColors {
+  position: absolute;
+  top: 605px;
+}
+.reviews .reviewTexts .indicatirColors li {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-clip: border-box;
+  width: 20px;
+  border-radius: 50%;
+  height: 0;
+  margin-left: 2%;
+}
+.reviews .reviewTexts .indicatirColors .active {
+  background-color: #dec377;
+}
+.reviews .indicatirColors {
+  position: absolute;
+  top: 605px;
+}
+.reviews .indicatirColors li {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-clip: border-box;
+  width: 20px;
+  border-radius: 50%;
+  height: 0;
+  margin-left: 2%;
+}
+.reviews .indicatirColors .active {
+  background-color: #dec377;
+}
+.reviews .button {
+  margin-bottom: 100px;
+}
+.reviews .partners .parnersText {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 40px;
+}
+.reviews .partners .parnersText p {
+  width: 55%;
+}
+.reviews .partners .parnersText button {
+  text-transform: uppercase;
+  font-family: Commissioner;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  color: #dec377;
+  background-color: #fff;
+  padding: 5px 15px;
+  border: 2px solid #dec377;
+  border-radius: 5%;
+}
+.reviews .partnersLogo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.weCanBlock {
+  background-color: #e5e5e5;
+  padding: 80px 0;
+}
+.weCanBlock .weCanText {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.weCanBlock .weCanText::after {
+  content: "";
+  position: absolute;
+  left: 1101px;
+  bottom: 253px;
+  border: 35px solid transparent;
+  border-top: 35px solid #DEC377;
+  border-right: 35px solid #DEC377;
+}
+.weCanBlock .text {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  width: 49%;
+  padding: 40px 50px 55px;
+  background-color: white;
+}
+.weCanBlock .text p:first-child {
+  font-family: Commissioner;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 26px;
+  line-height: 45px;
+}
+.weCanBlock .texts {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 40px 50px 55px;
+  align-items: end;
+  background-color: white;
+}
+.weCanBlock .texts p:first-child {
+  font-family: Commissioner;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 26px;
+  line-height: 45px;
+  width: 70%;
+  margin-right: 185px;
+}
+.skillItemBlock {
+  background-color: #e5e5e5;
+  padding: 70px 0 90px;
+}
+.skillItemBlock h3 {
+  margin-bottom: 15px;
+}
+.skillItemBlock .firstBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.skillItemBlock .firstBlock .block:first-child {
+  width: 40%;
+  position: relative;
+}
+.skillItemBlock .firstBlock .block:first-child::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top: 102px solid rgba(222, 195, 119, 0.4);
+  border-right: 70px solid rgba(222, 195, 119, 0.4);
+}
+.skillItemBlock .firstBlock .block:last-child {
+  width: 58%;
+  position: relative;
+}
+.skillItemBlock .firstBlock .block:last-child::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top: 102px solid rgba(222, 195, 119, 0.4);
+  border-right: 70px solid rgba(222, 195, 119, 0.4);
+}
+.skillItemBlock .secondBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.skillItemBlock .secondBlock .block:first-child {
+  width: 50%;
+  position: relative;
+}
+.skillItemBlock .secondBlock .block:first-child::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top: 102px solid rgba(222, 195, 119, 0.75);
+  border-right: 70px solid rgba(222, 195, 119, 0.75);
+}
+.skillItemBlock .secondBlock .block:last-child {
+  width: 48%;
+  position: relative;
+}
+.skillItemBlock .secondBlock .block:last-child::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top: 102px solid rgba(222, 195, 119, 0.75);
+  border-right: 70px solid rgba(222, 195, 119, 0.75);
+}
+.skillItemBlock .thirdBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.skillItemBlock .thirdBlock .block:first-child {
+  width: 60%;
+  position: relative;
+}
+.skillItemBlock .thirdBlock .block:first-child::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top: 102px solid #DEC377;
+  border-right: 70px solid #DEC377;
+}
+.skillItemBlock .thirdBlock .block:last-child {
+  width: 38%;
+  position: relative;
+}
+.skillItemBlock .thirdBlock .block:last-child::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top: 102px solid #DEC377;
+  border-right: 70px solid #DEC377;
+}
+.skillItemBlock .block {
+  background-color: white;
+  padding: 20px 20px 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.skillItemBlock .block p {
+  margin: 0;
+  font-family: Commissioner;
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 25px;
+}
+.skillItemBlock .block button {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  border: none;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+.skillItemBlock .skillItemBlockText {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.skillItemBlock .skillItemBlockText p {
+  width: 61%;
+}
+.whyMeBlock {
+  padding: 80px 0;
+}
+.whyMeBlock .blockText {
+  width: 37%;
+}
+.whyMeBlock .blockText h3 {
+  margin-bottom: 20px;
+}
+.whyMeBlock .blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.whyMeBlock .blocks:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.whyMeBlock .blocks:last-child {
+  margin-top: 50px;
+}
+.whyMeBlock .blocks ul {
+  width: 30%;
+}
+.whyMeBlock .blocks ul li {
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+.whyMeBlock .blocks ul li:last-child {
+  margin-bottom: 50px;
+}
+.whyMeBlock .blocks ul li .border {
+  content: "";
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  position: absolute;
+  left: -80px;
+}
+.whyMeBlock .blocks ul li .border::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-top: 10px solid #dec377;
+  border-right: 10px solid #dec377;
+  border-radius: 50%;
+}
+.advantagesBlock {
+  background-color: #e5e5e5;
+  padding: 80px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.advantagesBlock h3 {
+  margin-bottom: 30px;
+}
+.advantagesBlock .skills {
+  position: initial;
+  margin-bottom: 40px;
+}
+.advantagesBlock .text {
+  padding: 40px 401px 40px 50px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 90px;
+}
+.advantagesBlock .text::after {
+  content: "";
+  position: absolute;
+  left: 1101px;
+  bottom: 102px;
+  border: 35px solid transparent;
+  border-top: 35px solid #dec377;
+  border-right: 35px solid #dec377;
+}
+.advantagesBlock .userForm {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.advantagesBlock .userForm .userFormText {
+  width: 42%;
+}
+.advantagesBlock .userForm .userFormText li {
+  list-style-type: none;
+  position: relative;
+  font-size: 17px;
+  padding-left: 55px;
+  margin-bottom: 25px;
+}
+.advantagesBlock .userForm .userFormText li .border {
+  padding: 5px 35px;
+  border: 1px solid rgba(222, 195, 119, 0.75) !important;
+  border-radius: 50%;
+  position: absolute;
+  left: -50px;
+  font-family: Commissioner;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 67px;
+  color: #dec377;
+}
+.advantagesBlock .userForm .form {
+  width: 50%;
+  padding: 50px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Commissioner;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.advantagesBlock .userForm .form p:first-child {
+  color: rgba(0, 0, 0, 0.8);
+}
+.advantagesBlock .userForm .form p .textDecor {
+  text-decoration: underline;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+.advantagesBlock .userForm .form input {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #d6d6d6;
+  margin-bottom: 20px;
+}
+.advantagesBlock .userForm .form input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+.advantagesBlock .userForm .form input:focus {
+  outline: none;
+  border-bottom: 1px solid #dec377;
+}
+.advantagesBlock .userForm .form .button {
+  width: 100%;
+}
+.advantagesBlock .serviseCost {
+  width: 55%;
+}
+.advantagesBlock .serviseCost p {
+  margin-bottom: 25px;
+}
+.footer {
+  background-color: #e5e5e5;
+  padding: 50px 0;
+}
+.footer .footerBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footerBlock .social {
+  width: 25%;
+}
+.footer .footerBlock .social p {
+  font-family: Commissioner;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.footer .footerBlock .social p .rating {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 15px;
+}
+.footer .footerBlock .social p:first-child {
+  font-family: Commissioner;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 70px;
+}
+.footer .footerBlock .social .socialItems {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer .footerBlock .social .socialItems img {
+  margin-right: 15px;
+}
+.footer .footerBlock .social .map {
+  display: flex;
+}
+.footer .footerBlock .social .map p {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+.footer .footerBlock .social .map img {
+  width: 20%;
+  height: 30%;
+  margin-top: 3px;
+  margin-left: 15px;
+}
+.footer .footerBlock .social .map:last-child img {
+  margin-top: 23px;
+}
+.footer .footerBlock .officeBlc {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footerBlock .office {
+  width: 50%;
+}
+.footer .footerBlock .office .officeText {
+  width: 29%;
+}
+.footer .footerBlock .workTime {
+  width: 17%;
+}
+.footer .head {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer .heads {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+.footer .officeCity {
+  text-transform: uppercase;
+  font-family: Commissioner;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.footer .num {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.footer .adress {
+  font-family: Commissioner;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+}
+@font-face {
+  font-family: 'Commissioner';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('../fonts/commissioner-v1-latin-regular.woff2') format('woff2'), url('../fonts/commissioner-v1-latin-regular.woff') format('woff');
+}
+body {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.button {
+  font-family: Commissioner;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 200px;
+  height: 45px;
+  background: #dec377;
+  border-radius: 2px;
+  border: none;
+}

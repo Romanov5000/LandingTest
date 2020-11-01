@@ -1,0 +1,67 @@
+// out: false
+.header.wrapper{
+    max-width: 1210px;
+}
+.headerInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+
+    .language{
+        p{
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .lang{
+            font-family: Source Sans Pro;
+            font-size: 16px;
+            line-height: 20px;
+            color: rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+        }
+        img{
+            margin-bottom: 3px;
+        }
+    }
+    .phoneNumber{
+        a{
+            color: rgba(0, 0, 0, 0.5);
+            margin-left: 15px;
+            text-decoration: none;
+            font-family: Commissioner;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        img{
+            margin-bottom: 3px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        img:last-child{
+            margin-right: 15px;
+        }
+    }
+}
+.logoAndNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .navBar{
+        display: flex;
+        .nav{
+            margin-left: 50px;
+            list-style-type: none;
+            cursor: pointer;
+            font-family: Commissioner;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        .nav:last-child{
+            height: fit-content;
+        }
+    }
+}

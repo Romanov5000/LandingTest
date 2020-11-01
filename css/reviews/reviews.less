@@ -1,0 +1,101 @@
+// out: false
+.reviews {
+  h3 {
+    margin-bottom: 30px;
+  }
+
+  .reviewTexts {
+    display: flex;
+    justify-content: space-between;
+
+    .text {
+      padding: 40px 60px 60px 50px;
+      p {
+        &:first-child {
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+      .reviewUserName {
+        font-family: Commissioner;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 40px;
+        color: #dec377;
+      }
+    }
+    button {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      border: none;
+      background-color: white;
+      color: rgba(0, 0, 0, 0.5);
+      text-transform: uppercase;
+    }
+    .indicatirColors {
+      position: absolute;
+      top: 605px;
+
+      li {
+        background-color: rgba(0, 0, 0, 0.1);
+        background-clip: border-box;
+        width: 20px;
+        border-radius: 50%;
+        height: 0;
+        margin-left: 2%;
+      }
+      .active {
+        background-color: #dec377;
+      }
+    }
+  }
+  .indicatirColors {
+    position: absolute;
+    top: 605px;
+
+    li {
+      background-color: rgba(0, 0, 0, 0.1);
+      background-clip: border-box;
+      width: 20px;
+      border-radius: 50%;
+      height: 0;
+      margin-left: 2%;
+    }
+    .active {
+      background-color: #dec377;
+    }
+  }
+  .button {
+    margin-bottom: 100px;
+  }
+  .partners {
+    .parnersText {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      margin-bottom: 40px;
+
+      p {
+        width: 55%;
+      }
+      button {
+        text-transform: uppercase;
+        font-family: Commissioner;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 30px;
+        color: #dec377;
+        background-color: #fff;
+        padding: 5px 15px;
+        border: 2px solid #dec377;
+        border-radius: 5%;
+      }
+    }
+  }
+  .partnersLogo{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 90px;
+  }
+}
