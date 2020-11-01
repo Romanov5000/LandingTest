@@ -659,6 +659,7 @@
 }
 .footer .footerBlock .social .socialItems img {
   margin-right: 15px;
+  cursor: pointer;
 }
 .footer .footerBlock .social .map {
   display: flex;
@@ -726,10 +727,10 @@
   margin-top: 20px;
 }
 @font-face {
-  font-family: 'Commissioner';
+  font-family: "Commissioner";
   font-style: normal;
   font-weight: 400;
-  src: local(''), url('../fonts/commissioner-v1-latin-regular.woff2') format('woff2'), url('../fonts/commissioner-v1-latin-regular.woff') format('woff');
+  src: local(""), url("../fonts/commissioner-v1-latin-regular.woff2") format("woff2"), url("../fonts/commissioner-v1-latin-regular.woff") format("woff");
 }
 body {
   color: rgba(0, 0, 0, 0.8);
